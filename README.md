@@ -36,13 +36,13 @@
                         aria-haspopup="true" aria-expanded="false">
                         Dropdown
                     </a>
-                    <--!<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
-                    -->
+                  
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -96,8 +96,8 @@
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">My web design project</h5>
-                    <p class="card-text"> <a href="https://ourionsite.wordpress.com/" </a>
-                        cThis was developed long time ago. I am thing now to building more website.</p>
+                    <p class="card-text">
+                        This was developed long time ago. I am thinking now to building more website.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
