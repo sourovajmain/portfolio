@@ -1,37 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <style>
-    .red-text {
-        color: red;
+    .container{
+        margin-top: 30px;
+
     }
 </style>
-
-<h2 class="red-text">CatPhotoApp</h2>
-<main>
-    <p>Click here to view more <a href="#">cat photos</a>.</p>
-
-    <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
-
-    <div>
-        <p>Things cats love:</p>
-        <ul>
-            <li>cat nip</li>
-            <li>laser pointers</li>
-            <li>lasagna</li>
-        </ul>
-        <p>Top 3 things cats hate:</p>
-        <ol>
-            <li>flea treatment</li>
-            <li>thunder</li>
-            <li>other cats</li>
+    <title>Sourov Ajmain</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Education">Education</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="cover1.jpg" class="d-block w-100" alt="..." height="300px" width="220px">>
+            </div>
+            <div class="carousel-item">
+                <img src="cover2.jpg" class="d-block w-100" alt="..." height="300px" width="220px">>
+            </div>
+            <div class="carousel-item">
+                <img src="cover3.jpg" class="d-block w-100" alt="..." height="300px" width="220px">>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+                featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/ajmain-sourov-a68950140/" role="button">Learn more about me</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">My web design project</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                        content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">My python project</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">My graphic design project</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                        content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Education" class="container">
+        <div class="card">
+            <h5 id="education" class="card-header">Education</h5>
+            <div class="card-body">
+                <h5 class="card-title">BBA, Islamic University, Bangladesh</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+<h3>Progress of my site- 25%</h3>
+    <div class="countainer">
+        <div class="progress">
+            
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+        </div>
     </div>
 
-    <form action="/submit-cat-photo">
-        <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-        <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-        <label><input type="checkbox" name="personality" checked> Loving</label>
-        <label><input type="checkbox" name="personality"> Lazy</label>
-        <label><input type="checkbox" name="personality"> Energetic</label><br>
-        <input type="text" placeholder="cat photo URL" required>
-        <button type="submit">Submit</button>
-    </form>
-</main>
+    <br>
+
+    <br>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
